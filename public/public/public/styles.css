@@ -1,0 +1,31 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: -apple-system, system-ui, sans-serif;
+}
+
+.topbar {
+  height: 52px;
+  background: #0b0f14;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 14px;
+}
+
+#map {
+  height: calc(100% - 52px);
+}
+
+.pinbtn {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 14px 18px;
+  border-radius: 999px;
+  background: #0b0f14;
+  color: white;
+  border: none;
+  font-weight: 700;
+}
